@@ -150,3 +150,7 @@ font-size: 36px;}
 #newsletter {
     margin-bottom: 200px;
 }
+
+.lead {
+    display: inline-flex;
+}
