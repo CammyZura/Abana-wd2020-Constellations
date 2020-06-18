@@ -41,10 +41,8 @@ body {
 
 /**CAROUSEL E CO**/
 
-
 .lead {
-    display: inline-flex;
-}
+font-size: 36px;}
 
 .carousel-item {
     max-height: 40rem!important;
