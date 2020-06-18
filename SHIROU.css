@@ -21,7 +21,7 @@ body {
 .navbar {
     background-color: black;
     font-size: 18px;
-    text-transform: lowercase;
+    text-transform: uppercase;
     letter-spacing: .1rem;
     font-weight: 500;
 }
