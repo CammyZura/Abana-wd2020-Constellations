@@ -39,6 +39,12 @@ body {
     color: gray!important;
 }
 
+/**CAROUSEL E CO**/
+
+br{
+margin: 10px;
+}
+
 .carousel-item {
     max-height: 40rem!important;
 }
