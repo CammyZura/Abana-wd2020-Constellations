@@ -46,9 +46,8 @@ body {
     -webkit-filter: blur(2px);
 }
 
-.22 {
-    display: inline;
-    font-size: 20px;
+.lead .twoo {
+    white-space: nowrap;
 }
 
 
