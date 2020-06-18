@@ -41,6 +41,11 @@ body {
 
 /**CAROUSEL E CO**/
 
+.pic {
+    filter: blur(2px);
+    -webkit-filter: blur(2px);
+}
+
 .lead {
 font-size: 36px;}
 
