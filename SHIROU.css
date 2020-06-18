@@ -46,6 +46,10 @@ body {
     -webkit-filter: blur(2px);
 }
 
+.22 {
+    display: inline;
+}
+
 
 .carousel-item {
     max-height: 40rem!important;
