@@ -46,6 +46,8 @@ font-size: 36px;}
 
 .carousel-item {
     max-height: 40rem!important;
+    filter: blur(2px);
+  -webkit-filter: blur(2px);
 }
 
 .carousel-item-next,
