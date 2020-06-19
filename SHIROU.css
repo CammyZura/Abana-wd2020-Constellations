@@ -80,6 +80,12 @@ h1{
     color:#f58d98;
 }
 
+#services h3{
+
+    font-size:22px;
+    color:#f58d98;
+}
+
 /** app **/
 #app img {
     transition: .3s ease;
@@ -94,8 +100,6 @@ h1{
 /** parallax **/
 .fixed-background {
     padding: 12rem 0;
-    border-top: .05rem solid black;
-    border-bottom: .05rem solid black;
     margin-bottom: 2px;
 }
 
@@ -132,9 +136,57 @@ h1{
             transform: translateZ(0);
 }
 
+/**abt**/
+.w-60{
+    transition: .3s ease;
+ }
+
+
+.w-60:hover{
+    color:white;
+    opacity: 0.5;
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+        transform: scale(1.05);
+    
+}
+
+
+
 /** newsletter **/
 #newsletter {
+ 
     margin-bottom: 200px;
+}
+
+.bg{
+    margin: 50px;
+    margin-top: 20px;
+    width: 90%;
+    background-attachment: fixed;
+    transition: .3s ease;
+    
+}
+
+.bg:hover{
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
+    
+}
+
+#newsletter p{
+    font-size: 26px;
+    font-style: normal;
+    color: black; 
+
+}
+
+
+#newsletter h1{
+    font-size: 50px;
+    color: black;
+
 }
 
 /** footer **/
@@ -144,7 +196,15 @@ h1{
 }
 
 #footer p {
-    font-weight: bold; color: white;
+     color: white;
+     transition: .3s ease;
+}
+
+#footer p:hover {
+    font-style: bold;
+    -webkit-transform: scale(1.05);
+        -ms-transform: scale(1.05);
+            transform: scale(1.05);
 }
 
 /** misc **/
@@ -153,16 +213,21 @@ h1{
 }
 
 .themed.text {
-    color:#21cbbf;
+    color:#30c9bd;
 }
 
 .themed.btn {
     border-radius: 50px;
-    background-color: #21cbbf;
+    background-color: #30c9bd;
     color: white;
 }
 
 .themed.btn:hover {
     background-color: white;
-    color: #21cbbf;
+    color: #30c9bd;
+}
+
+input[type=text]{
+    border: 2px solid gray;
+    border-radius: 4px;
 }
