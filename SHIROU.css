@@ -214,6 +214,7 @@ h1{
 
 .themed.text {
     color:#30c9bd;
+    text-decoration: underline;
 }
 
 .themed.btn {
